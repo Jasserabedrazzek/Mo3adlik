@@ -377,5 +377,5 @@ with col10:
     st.write("Crédits:","[Jasser ben abed razzek](https://www.facebook.com/jasser.razzek.3/)")
 with col11:
     st.write("Copyright :copyright: 2023, Streamlit Inc")
-st.write("Created by [Python](www.python.org)")
+st.write("Created by [Python](https://www.python.org/)")
 
