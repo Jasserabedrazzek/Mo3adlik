@@ -343,7 +343,7 @@ with col2:
                 orlo =float(orlo)
                 s = float(s)
                 if c<=20 and c>=0 and s>=0 and s<=20:
-                    op = (c + s*2)/4
+                    op = (c +orlo+ s*2)/4
                     if op<10:
                         st.error(str(op)[0:6])
                     elif op >=10 and op<=15:
