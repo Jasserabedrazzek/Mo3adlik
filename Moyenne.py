@@ -377,12 +377,5 @@ with col10:
     st.write("Crédits:","[Jasser ben abed razzek](https://www.facebook.com/jasser.razzek.3/)")
 with col11:
     st.write("Copyright :copyright: 2023, Streamlit Inc")
-col13,col14 = st.columns(2)
-with col14:
-    current_time = st.empty()
-    current_time.text(datetime.datetime.now().strftime("%H:%M:%S"))
 
-# Update the time every second
-    while True:
-        current_time.text(datetime.datetime.now().strftime("%H:%M:%S"))
-        time.sleep(1)
+
