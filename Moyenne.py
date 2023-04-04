@@ -361,7 +361,7 @@ with col2:
     m =  Option()
     res = a*4+b*4+c*2+d*2+e*2+f+g+h*1.5+i+j+k*1.5+l+m
 
-    btn = st.button("Calculer votre  Moyennek")
+    btn = st.button("Calculer votre  Moyenne")
     if btn:
         resultat = res/23
         st.header("Moyennek")
