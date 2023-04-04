@@ -211,7 +211,7 @@ with col2:
                 c = float(c)
                 s = float(s)
                 if c<=20 and c>=0 and s>=0 and s<=20:
-                    infor = (c + s*2)/3
+                    infor = (c +orlo+ s*2)/3
                     if infor<10:
                         st.error(str(infor)[0:6])
                     elif infor >10 and infor<15:
